@@ -5,7 +5,6 @@ container.addEventListener('click', onCardClick)
 
 function onCardClick(e) {
     removeActive(slides)
-    console.log(e.target.classList)
     if (e.target.classList.contains('slide')) {
         e.target.closest('.slide').classList.add('active')
     } else {

@@ -20,7 +20,6 @@ function dragenter(e) {
 }
 
 function dragleave(e) {
-    console.log('dragleave')
     e.target.classList.remove('hovered')
 }
 
